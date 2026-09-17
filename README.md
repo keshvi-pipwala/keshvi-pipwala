@@ -4,7 +4,7 @@
 <!-- TYPING ANIMATION -->
 <p align="center">
   <a href="https://keshvi-portfolio-ten.vercel.app/">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=6E56CF&center=true&vCenter=true&width=650&lines=Six+AI+builds+shipped+%C2%B7+three+live;100%25+precision+on+auto-posts+(Close+Copilot);0%E2%86%925%2C000+users+%C2%B7+ASU+AI+platform;NASA+L'SPACE+data+pipelines+%C2%B7+95%25+accuracy;Open+to+AI+PM+%C2%B7+TPM+%C2%B7+Forward-Deployed+AI" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=6E56CF&center=true&vCenter=true&width=650&lines=Six+AI+builds+shipped+%C2%B7+all+with+live+demos;100%25+precision+on+auto-posts+(Close+Copilot);0%E2%86%925%2C000+users+%C2%B7+ASU+AI+platform;NASA+L'SPACE+data+pipelines+%C2%B7+95%25+accuracy;Open+to+AI+PM+%C2%B7+TPM+%C2%B7+Forward-Deployed+AI" alt="Typing SVG" />
   </a>
 </p>
 
@@ -34,7 +34,7 @@ const keshvi = {
     data: ["ETL + validation", "PostgreSQL", "SQLite FTS5", "Pandas", "Tableau/Power BI"],
     infra: ["FastAPI", "Celery", "Redis", "Docker Compose", "GitHub Actions", "Prometheus/Grafana", "Vercel/Render"],
   },
-  shipped: ["Close Copilot (live)", "SubmissionClear (live)", "InsightIQ (live)", "GitSense", "ResilienceOS", "Resilient LLM Gateway"],
+  shipped: ["Close Copilot", "SubmissionClear", "InsightIQ", "GitSense", "ResilienceOS", "Resilient LLM Gateway"],  // all six have live demos
   howIBuild: "spec, tradeoffs, eval set and QA are mine; implementation is AI-assisted — and I say so",
   certifications: ["Anthropic AI Fluency", "Anthropic Claude 101", "AWS Academy: Data Engineering", "AWS Academy: ML Foundations"],
   recently: "AI/Data PM @ ASU (0→5,000+ users, +18% retention) · Software Engineer @ NASA L'SPACE (95% anomaly-detection accuracy)",
@@ -85,7 +85,7 @@ Built for a forward-deployed engineer application: broker email in → classify 
 
 The generalized fix for the rate-limit problem that hit GitSense: a LiteLLM router with a strict primary → fallback chain, retries + cooldown, per-request spend tracking and a budget guard. Runs offline in mock mode with zero API keys; 6 tests cover failover, spend and budget.
 
-**🔗 [Code](https://github.com/keshvi-pipwala/litellm-resilient-gateway)**
+**🔗 [Live Demo](https://keshvi-pipwala.github.io/litellm-resilient-gateway/) · [Code](https://github.com/keshvi-pipwala/litellm-resilient-gateway)**
 
 <br/>
 
@@ -103,7 +103,7 @@ Defined the product, risk-scoring logic, and evals for a PR-review agent, then d
 | Backend | Python · FastAPI |
 | Product | Product Spec · Risk Scoring · Slack Alerts |
 
-**🔗 [Code](https://github.com/keshvi-pipwala/gitsense)**
+**🔗 [Live Demo](https://keshvi-pipwala.github.io/gitsense/) · [Code](https://github.com/keshvi-pipwala/gitsense)**
 
 <br/>
 
@@ -140,7 +140,7 @@ A chaos-engineering sandbox — scoped the experiment surface (latency, failures
 | Systems | Chaos Engineering · Fault Injection |
 | Infra | Distributed Systems |
 
-**🔗 [Code](https://github.com/keshvi-pipwala/resilienceos)**
+**🔗 [Live Demo](https://keshvi-pipwala.github.io/resilienceos/) · [Code](https://github.com/keshvi-pipwala/resilienceos)**
 
 ---
 
